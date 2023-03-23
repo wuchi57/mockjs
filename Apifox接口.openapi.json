@@ -17,6 +17,9 @@
     },
     {
       "name": "Search & List"
+    },
+    {
+      "name": "Table"
     }
   ],
   "paths": {
@@ -571,6 +574,35 @@
           }
         },
         "x-run-in-apifox": "https://www.apifox.cn/web/project/2481802/apis/api-70400305-run"
+      }
+    },
+    "/table/list": {
+      "get": {
+        "summary": "获取表格数据",
+        "x-apifox-folder": "Table",
+        "x-apifox-status": "developing",
+        "deprecated": false,
+        "description": "",
+        "tags": [
+          "Table"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {},
+                  "x-apifox-ignore-properties": [],
+                  "x-apifox-orders": []
+                }
+              }
+            }
+          }
+        },
+        "x-run-in-apifox": "https://www.apifox.cn/web/project/2481802/apis/api-70426915-run"
       }
     }
   },

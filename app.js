@@ -15,6 +15,7 @@ app.use(require('./router/user'))
 app.use(require('./router/role'))
 app.use(require('./router/article'))
 app.use(require('./router/search'))
+app.use(require('./router/table'))
 app.use(require('./router/404'))
 app.use(require('./router/error'))
 
